@@ -1,6 +1,9 @@
 # DynamicFloatingActionButton
-
 A highly customizable, animated Floating Action Button (FAB) component for iOS applications built with Swift and UIKit. This component provides a Material Design-inspired floating action button with expandable menu items and smooth animations.
+
+## 📸 Preview
+
+<img src="https://github.com/SwapnilKPatel/Dynamic-Floating-Action-Button/blob/main/mrNightfoxDFA.gif?raw=true" alt="FAB Preview" width="200" />
 
 ## Features
 
