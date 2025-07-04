@@ -46,14 +46,14 @@ class ViewController: UIViewController {
     
     private func setupFAB() {
         let fab = FABBuilder()
-            .addItem(id: "share", title: "Share", icon: "square.and.arrow.up") {
+            .addItem(id: "share", title: "Share Content", icon: "square.and.arrow.up", backgroundColor: .systemGreen) {
                 print("Share action triggered")
             }
-            .addItem(id: "bookmark", title: "Bookmark", icon: "bookmark") {
+            .addItem(id: "bookmark", title: "Add Bookmark", icon: "bookmark.fill", backgroundColor: .systemOrange) {
                 print("Bookmark action triggered")
             }
-            .addItem(id: "favorite", title: "Favorite", icon: "heart") {
-                print("Favorite action triggered")
+            .addItem(id: "edit", title: "Edit Item", icon: "pencil", backgroundColor: .systemRed) {
+                print("Edit action triggered")
             }
             .build()
         
