@@ -291,4 +291,4 @@ If you find this library useful, please consider:
 
 ---
 
-**Created by [MrNightfox]** - Feel free to contact me for any questions or suggestions!
+**Created by MrNightfox** - Feel free to contact me for any questions or suggestions!
