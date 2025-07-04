@@ -106,29 +106,16 @@ let fab = DynamicFloatingActionButton(configuration: customConfig)
 
 ```swift
 let items = [
-    FABMenuItem(
-        id: "create_meeting",
-        title: "Book a Meeting",
-        icon: "calendar.badge.plus",
-        backgroundColor: .systemBlue,
-        iconColor: .white
-    ) {
-        // Handle meeting creation
-        self.createMeeting()
+    FABMenuItem(id: "item1", title: "Custom Action 1", icon: "heart.fill", backgroundColor: .systemPink) {
+        print("Custom action 1")
     },
-    FABMenuItem(
-        id: "create_block",
-        title: "Block a Slot",
-        icon: "calendar.badge.minus",
-        backgroundColor: .systemRed,
-        iconColor: .white
-    ) {
-        // Handle slot blocking
-        self.blockSlot()
+    FABMenuItem(id: "item2", title: "Custom Action 2", icon: "star.fill", backgroundColor: .systemYellow) {
+        print("Custom action 2")
     }
 ]
 
 fab.setMenuItems(items)
+
 ```
 
 ### Programmatic Control
