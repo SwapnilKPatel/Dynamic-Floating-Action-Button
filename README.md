@@ -30,20 +30,6 @@ A highly customizable, animated Floating Action Button (FAB) component for iOS a
 2. Add it to your Xcode project
 3. Import and use in your view controllers
 
-### CocoaPods (Coming Soon)
-
-```ruby
-pod 'DynamicFloatingActionButton'
-```
-
-### Swift Package Manager (Coming Soon)
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/yourusername/DynamicFloatingActionButton.git", from: "1.0.0")
-]
-```
-
 ## Quick Start
 
 ### Basic Usage
